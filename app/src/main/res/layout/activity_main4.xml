@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.survey.Main4Activity"
+    android:background="@android:color/holo_blue_light">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RG3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:text="@string/gap_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton9"
+            android:layout_below="@+id/radioButton8"
+            android:layout_alignLeft="@+id/radioButton12"
+            android:layout_alignStart="@+id/radioButton12"
+            android:layout_marginTop="11dp"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/freshman_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton10"
+            android:layout_below="@+id/radioButton9"
+            android:layout_alignLeft="@+id/radioButton8"
+            android:layout_alignStart="@+id/radioButton8"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/junior_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton11"
+            android:layout_below="@+id/radioButton10"
+            android:layout_alignLeft="@+id/radioButton10"
+            android:layout_alignStart="@+id/radioButton10"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/senior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton8"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/sophomore_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton12"
+            android:layout_below="@+id/radioButton11"
+            android:layout_alignLeft="@+id/radioButton11"
+            android:layout_alignStart="@+id/radioButton11"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/postgraduate_education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton14"
+            android:layout_below="@+id/radioButton13"
+            android:layout_alignLeft="@+id/radioButton13"
+            android:layout_alignStart="@+id/radioButton13"
+            android:textSize="14sp"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/next2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp"
+            android:onClick="onClick"
+            android:layout_alignRight="@+id/radioButton10"
+            android:layout_alignEnd="@+id/radioButton10"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/your_education_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="casual"
+        tools:text=" Q3.Your education level?" />
+
+</RelativeLayout>

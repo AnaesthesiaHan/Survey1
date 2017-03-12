@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_65_80">65-80</string>
+    <string name="_15_24">15-24</string>
+    <string name="_25_44">25-44</string>
+    <string name="_45_64">45-64</string>
+    <string name="_6_14">6-14</string>
+    <string name="next">NEXT</string>
+    <string name="textview">TextView</string>
+    <string name="what_kind_of_hotel_you_prefer_to_choose">What kind of hotel you prefer to choose?</string>
+    <string name="next1">NEXT</string>
+    <string name="other">Other</string>
+    <string name="the_way_you_would_like_to_travel">The way you would like to travel?</string>
+    <string name="travel_by_myself">Travel by myself</string>
+    <string name="travel_with_a_group">Travel with a group</string>
+    <string name="freshman_year">Freshman year</string>
+    <string name="gap_year">Gap year</string>
+    <string name="junior_year">Junior year</string>
+    <string name="next2">NEXT</string>
+    <string name="postgraduate_education">Postgraduate education</string>
+    <string name="senior">Senior</string>
+    <string name="senior1">Senior</string>
+    <string name="sophomore_year">Sophomore year</string>
+    <string name="your_education_level">Your education level?</string>
+    <string name="what_is_your_gender">What is your gender?</string>
+    <string name="next3">NEXT</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="next4">NEXT</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2_3">2-3</string>
+    <string name="how_many_times_have_you_gone_for_travel">How many times have you gone for travel?</string>
+    <string name="more_than_4">More than 4</string>
+    <string name="next5">NEXT</string>
+    <string name="how_much_you_usually_pay_for_your_tour">How much you usually pay for your tour?</string>
+    <string name="next6">NEXT</string>
+    <string name="no">No</string>
+    <string name="will_you_buy_local_product_when_you_travel">Will you buy local product when you travel?</string>
+    <string name="yes">Yes</string>
+    <string name="next7">NEXT</string>
+    <string name="no6">No</string>
+    <string name="yes9">Yes</string>
+</resources>

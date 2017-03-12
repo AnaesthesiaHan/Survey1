@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.survey.Main8Activity"
+    android:background="@android:color/holo_blue_light">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/times" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/times"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:id="@+id/RG5">
+
+        <RadioButton
+            android:text="@string/_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton18"
+            android:layout_alignTop="@+id/times"
+            android:layout_toRightOf="@+id/times"
+            android:layout_toEndOf="@+id/times"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton19"
+            android:layout_below="@+id/radioButton18"
+            android:layout_toRightOf="@+id/times"
+            android:layout_toEndOf="@+id/times"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton20"
+            android:layout_below="@+id/radioButton19"
+            android:layout_toRightOf="@+id/times"
+            android:layout_toEndOf="@+id/times"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/more_than_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton21"
+            android:layout_below="@+id/radioButton20"
+            android:layout_toRightOf="@+id/times"
+            android:layout_toEndOf="@+id/times"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <Button
+        android:text="@string/next5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:textSize="24sp"
+        android:onClick="onClick"
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual" />
+
+    <TextView
+        android:text="@string/how_many_times_have_you_gone_for_travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView8"
+        android:textSize="36sp"
+        tools:fontFamily="casual"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:text="Q7.How many times have you gone for travel"
+        android:fontFamily="casual" />
+</RelativeLayout>
